@@ -1,0 +1,24 @@
+/*sketch.css*/
+
+:root{
+  --rowCol: 16;
+}
+
+
+#grid-container{
+  margin: auto;
+  display:grid;
+  justify-content: center;
+  grid-template-columns: repeat(var(--rowCol), 1fr);
+  grid-template-rows: repeat(var(--rowCol), 1fr);
+}
+
+.hovered{
+  background-color: rgb(255,0,0);
+}
+
+button{
+  display:block;
+  margin:auto;
+  margin-bottom: 10px;
+}
